@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Advanced styling
 
-If your a bit familar with HTML and CSS, you can customize the look of your embedded map quite easily. Remember that the iframe is just a HTML element, and can therefore also be styled as one. The basic idea is that you assign a class name to the iframe, and then reference that class name in your CSS code to apply different styles.
+If you're somewhat familar with HTML and CSS, you can customize the look of your embedded map quite easily. Remember that the iframe is just a HTML element, and can therefore also be styled as one. The basic idea is that you assign a class name to the iframe, and then reference that class name in your CSS code to apply different styles.
 
 Here, we assign the class name `mapzy-map` to the iframe.
 
