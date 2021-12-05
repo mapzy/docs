@@ -14,7 +14,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
   organizationName: 'shafy',
-  projectName: 'fugu-docs',
+  projectName: 'mapzy-docs',
   scripts: [
     {src: 'https://plausible.io/js/script.js', defer: true, 'data-domain': 'docs.mapzy.io'},
   ],
@@ -27,7 +27,7 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/shafy/fugu-docs/edit/main',
+          editUrl: 'https://github.com/mapzy/mapzy/edit/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -96,7 +96,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Fugu. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Mapzy. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
