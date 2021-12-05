@@ -6,17 +6,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Fugu Docs',
-  tagline: 'Docs for Fugu',
-  url: 'https://docs.fugu.lol',
+  title: 'Mapzy Docs',
+  tagline: 'Docs for Mapzy',
+  url: 'https://docs.mapzy.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
   organizationName: 'shafy',
   projectName: 'fugu-docs',
   scripts: [
-    {src: 'https://plausible.io/js/script.js', defer: true, 'data-domain': 'docs.fugu.lol'},
+    {src: 'https://plausible.io/js/script.js', defer: true, 'data-domain': 'docs.mapzy.io'},
   ],
 
   presets: [
@@ -40,19 +40,19 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       algolia: {
-        apiKey: 'c3b256672bd38af90fe95c925014ad4e',
-        appId: 'BH4D9OD16A',
-        indexName: 'fugu'
+        apiKey: 'acb1',
+        appId: 'tbd',
+        indexName: 'mapzy'
       },
       navbar: {
-        title: 'Fugu Docs',
+        title: 'Mapzy Docs',
         logo: {
-          alt: 'Fugu Logo',
-          src: 'img/fugu_logo.jpg',
+          alt: 'Mapzy Logo',
+          src: 'img/mapzy_logo.png',
         },
         items: [
           {
-            href: 'https://github.com/shafy/fugu',
+            href: 'https://github.com/mapzy/docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -62,19 +62,19 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Fugu',
+            title: 'Mapzy',
             items: [
               {
                 label: 'About',
-                to: 'https://fugu.lol',
+                to: 'https://mapzy.io',
               },
               {
                 label: 'Create an Account',
-                to: 'https://app.fugu.lol/users/sign_up',
+                to: 'https://app.mapzy.io/account/register',
               },
               {
                 label: 'Sign in',
-                to: 'https://app.fugu.lol/users/sign_in',
+                to: 'https://app.mapzy.io/account/login',
               },
             ],
           },
@@ -82,12 +82,16 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Twitter',
+                label: '@SagGpt',
+                to: 'https://twitter.com/SagGpt',
+              },
+              {
+                label: '@canolcer',
                 to: 'https://twitter.com/canolcer',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/mapzy/docs',
               },
             ],
           },
