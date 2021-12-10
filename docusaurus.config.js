@@ -13,7 +13,7 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'shafy',
+  organizationName: 'mapzy',
   projectName: 'mapzy-docs',
   scripts: [
     {src: 'https://plausible.io/js/script.js', defer: true, 'data-domain': 'docs.mapzy.io'},
@@ -27,7 +27,7 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/mapzy/mapzy/edit/main',
+          editUrl: 'https://github.com/mapzy/docs/edit/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -69,7 +69,7 @@ const config = {
                 to: 'https://mapzy.io',
               },
               {
-                label: 'Create an Account',
+                label: 'Get started',
                 to: 'https://app.mapzy.io/account/register',
               },
               {
@@ -82,12 +82,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: '@SagGpt',
-                to: 'https://twitter.com/SagGpt',
-              },
-              {
-                label: '@canolcer',
-                to: 'https://twitter.com/canolcer',
+                label: 'Contact',
+                to: 'mailto:bonjour@mapzy.io',
               },
               {
                 label: 'GitHub',
