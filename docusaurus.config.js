@@ -69,7 +69,7 @@ const config = {
                 to: 'https://mapzy.io',
               },
               {
-                label: 'Create an Account',
+                label: 'Get started',
                 to: 'https://app.mapzy.io/account/register',
               },
               {
@@ -82,12 +82,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: '@SagGpt',
-                to: 'https://twitter.com/SagGpt',
-              },
-              {
-                label: '@canolcer',
-                to: 'https://twitter.com/canolcer',
+                label: 'Contact',
+                to: 'mailto:bonjour@mapzy.io',
               },
               {
                 label: 'GitHub',
