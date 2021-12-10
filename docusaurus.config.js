@@ -13,7 +13,7 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'shafy',
+  organizationName: 'mapzy',
   projectName: 'mapzy-docs',
   scripts: [
     {src: 'https://plausible.io/js/script.js', defer: true, 'data-domain': 'docs.mapzy.io'},
@@ -27,7 +27,7 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/mapzy/mapzy/edit/main',
+          editUrl: 'https://github.com/mapzy/docs/edit/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
