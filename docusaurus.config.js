@@ -69,32 +69,15 @@ const config = {
                 to: 'https://mapzy.io',
               },
               {
-                label: 'Create an Account',
+                label: 'Get started',
                 to: 'https://app.mapzy.io/account/register',
-              },
-              {
-                label: 'Sign in',
-                to: 'https://app.mapzy.io/account/login',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: '@SagGpt',
-                to: 'https://twitter.com/SagGpt',
-              },
-              {
-                label: '@canolcer',
-                to: 'https://twitter.com/canolcer',
               },
               {
                 label: 'GitHub',
                 href: 'https://github.com/mapzy/docs',
-              },
+              }
             ],
-          },
+          }
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Mapzy. Built with Docusaurus.`,
       },
