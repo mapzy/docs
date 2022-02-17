@@ -6,12 +6,12 @@ Mapzy is an open-source, simple and privacy-friendly store locator. Learn more o
 
 ## Contribute
 
-Create a local .env file containing the keys listed in .env.sample. Then, install dependencies using Yarn:
-```
-  yarn
-```
+The documentation files are located under the `docs` folder. They are standard markdown files that can be edited directly in Github. Alternatively, you can clone the repo and run it locally.
 
-Finally, run the site locally, using:
+### Local
+
+Create a local .env file containing the keys listed in .env.sample and their corresponding values. Then, install dependencies & run the repo locally using Yarn:
 ```
+  yarn install
   yarn start
 ```
