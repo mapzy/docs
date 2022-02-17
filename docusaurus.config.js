@@ -1,6 +1,11 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+// Load env variables from .env file
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').config();
+}
+
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -40,9 +45,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       algolia: {
-        apiKey: 'b9642fa58d41edc873e657be7352cf52',
-        appId: '3HME1GNS4V',
-        indexName: 'docs-mapzy'
+        apiKey: process.env.ALGOLIA_API_KEY,
+        appId: process.env.ALGOLIA_APP_ID,
+        indexName: process.env.ALGOLIA_INDEX_NAME
       },
       navbar: {
         title: 'Mapzy Docs',
