@@ -40,9 +40,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       algolia: {
-        apiKey: 'acb1',
-        appId: 'tbd',
-        indexName: 'mapzy'
+        apiKey: 'b9642fa58d41edc873e657be7352cf52',
+        appId: '3HME1GNS4V',
+        indexName: 'docs-mapzy'
       },
       navbar: {
         title: 'Mapzy Docs',
