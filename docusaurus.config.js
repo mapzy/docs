@@ -45,9 +45,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       algolia: {
-        apiKey: process.env.ALGOLIA_API_KEY,
-        appId: process.env.ALGOLIA_APP_ID,
-        indexName: process.env.ALGOLIA_INDEX_NAME
+        apiKey: process.env.ALGOLIA_API_KEY || "1234",
+        appId: process.env.ALGOLIA_APP_ID || "dev",
+        indexName: process.env.ALGOLIA_INDEX_NAME || "dev"
       },
       navbar: {
         title: 'Mapzy Docs',
