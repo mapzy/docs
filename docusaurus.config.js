@@ -47,7 +47,11 @@ const config = {
       algolia: {
         apiKey: process.env.ALGOLIA_API_KEY || "1234",
         appId: process.env.ALGOLIA_APP_ID || "dev",
-        indexName: process.env.ALGOLIA_INDEX_NAME || "dev"
+        indexName: process.env.ALGOLIA_INDEX_NAME || "dev",
+        searchParameters: {
+          clickAnalytics: false,
+          analytics: false
+        }
       },
       navbar: {
         title: 'Mapzy Docs',
