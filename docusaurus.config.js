@@ -61,7 +61,7 @@ const config = {
         },
         items: [
           {
-            href: 'https://github.com/mapzy/docs',
+            href: 'https://github.com/mapzy/mapzy',
             label: 'GitHub',
             position: 'right',
           },
