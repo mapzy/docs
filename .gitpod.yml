@@ -3,7 +3,7 @@ image: gitpod/workspace-full
 ports:
   # Docusaurus server
   - port: 3000
-    onOpen: ignore
+    onOpen: open-browser
 
 tasks:
   - init: yarn install
