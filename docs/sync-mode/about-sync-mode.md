@@ -4,11 +4,7 @@ sidebar_position: 1
 
 # About Sync Mode
 
-Sync Mode let's you synchronize your locations and their opening times from an external source with your Mapzy map. This is a one way synchronization, i.e. locations from your Mapzy account are not synchronized back to your external source. Your external source of locations is considered the source of truth; the synchronization process deletes locations that are not included in the request to the Sync API. To use Sync Mode, you need to turn it on in your Mapzy settings and then call our Sync API endpoint with your data.
-
-## Why Sync Mode?
-
-The cool thing about Sync Mode is that if you already have an external database of locations, you can easily sync it to Mapzy and then just embed your Mapzy map on your website. Withouth Sync Mode, you would need to build your own mapping front-end which takes more time than simply using Mapzy with Sync Mode. Having said that, we consider Sync Mode an advanced feature that will not be used by most users.
+With Sync Mode, you can synchronize your locations and their opening times from an external source with your Mapzy map. Your external source is considered the only source of truth; the synchronization process deletes locations that are not included in the request to the Sync API or that were created through the Mapzy dashboard.. To use Sync Mode, you need to turn it on in your Mapzy settings and then call our Sync API endpoint with your data.
 
 ## Activating and deactivating Sync Mode
 

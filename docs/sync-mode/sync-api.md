@@ -7,7 +7,7 @@ sidebar_position: 2
 
 After turning on Sync Mode, you can make an API call to our Sync API to synchronize your locations from an external source with Mapzy.
 
-**CAUTION: The synchronization process delets all existing locations and opening times in your Mapzy account. Locations and opening times that are not included in the request payload are deleted forever.**
+**CAUTION: The synchronization process deletes all existing locations and opening times from your Mapzy account. Locations and opening times that are not included in the request payload are permanently deleted.**
 
 
 ## Authentication with API key
@@ -19,7 +19,7 @@ curl --request POST \
   --header 'Authorization: Bearer b77a3260decc61f10f8z25ca8990elA'
 ```
 
-If you accidently exposed your API key, let us know (bonjour@mapzy.io) and we'll generate a new one for you. If you're self-hosting, you will need to re-generate it manually (see [GitHub discussions](https://github.com/mapzy/mapzy/discussions) for help with self-hosting).
+If you accidently expose your API key, let us know (bonjour@mapzy.io) and we'll generate a new one for you. If you're self-hosting, you will need to re-generate it manually (see [GitHub discussions](https://github.com/mapzy/mapzy/discussions) for help with self-hosting).
 
 ## API endpoint
 
@@ -115,8 +115,8 @@ curl --request POST \
   --header 'Content-Type: application/json' \
   --data '[
 	{
-		"name": "Joe'\''s Ravioli Factory",
-		"description": "If you like Joe'\''s pasta, you will freakin'\'' love Joe'\''s Ravioli. Straight out of this little factory.",
+		"name": "Joe Ravioli Factory",
+		"description": "If you like Joe Pasta, you will love Joe Ravioli.",
 		"address": "Krossener Straße 21, 10245 Berlin, Germany",
 		"latitude": "",
 		"longitude": "",
